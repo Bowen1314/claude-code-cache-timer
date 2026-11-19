@@ -1,0 +1,5 @@
+{
+  "name": "claude-code-cache-timer",
+  "owner": { "name": "Bowen1314" },
+  "plugins": [{ "name": "cache-timer", "source": "./" }]
+}
