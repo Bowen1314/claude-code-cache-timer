@@ -1,6 +1,6 @@
 {
   "name": "cache-timer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Shows how long the main thread's prompt cache stays warm, per model (5m or 1h TTL, counted from the last request)",
   "types": "./types/index.d.ts"
 }

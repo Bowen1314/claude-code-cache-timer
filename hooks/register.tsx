@@ -71,7 +71,7 @@ export const register: Register = on => {
 
       const left = mark.at + TTL_MS[mark.ttl] - now
       if (left <= 0) {
-        return i === 0 ? [`Cache expired ${clock(-left)} · ${mark.ttl} · ${model}`] : []
+        return i === 0 ? [`Cache expired · ${mark.ttl} · ${model}`] : []
       }
 
       return [`Cache ${clock(left)} · ${mark.ttl} · ${model}`]

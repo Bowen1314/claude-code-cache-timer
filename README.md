@@ -10,7 +10,7 @@ It appears as dim text at the right of the prompt footer:
 Cache 59:33 · 1h · opus-5-5
 ```
 
-Once the entry lapses it reads `Cache expired 3:05 · 1h · opus-5-5`, meaning the next request writes the cache again. Subagents keep caches of their own and are not counted.
+Once the entry lapses it reads `Cache expired · 1h · opus-5-5`, meaning the next request writes the cache again. Subagents keep caches of their own and are not counted.
 
 ## Install
 
